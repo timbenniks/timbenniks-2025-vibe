@@ -3,8 +3,12 @@
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center py-4">
         <!-- Logo/Brand -->
-        <NuxtLink to="/" class="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-          <div class="text-brand text-2xl font-bold">TB</div>
+        <NuxtLink to="/" class="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+          <img 
+            src="/tim.svg" 
+            alt="Tim Benniks Logo" 
+            class="w-8 h-8 sm:w-10 sm:h-10"
+          >
           <span class="text-xl font-bold text-highlighted hidden sm:block">Tim Benniks</span>
         </NuxtLink>
 

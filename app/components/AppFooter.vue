@@ -5,8 +5,12 @@
         
         <!-- Brand section -->
         <div class="md:col-span-2">
-          <div class="flex items-center space-x-2 mb-4">
-            <div class="text-brand text-2xl font-bold">TB</div>
+          <div class="flex items-center space-x-3 mb-4">
+            <img 
+              src="/tim.svg" 
+              alt="Tim Benniks Logo" 
+              class="w-10 h-10"
+            >
             <span class="text-xl font-bold text-highlighted">Tim Benniks</span>
           </div>
           <p class="text-muted max-w-md">
