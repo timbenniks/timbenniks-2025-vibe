@@ -4,7 +4,8 @@
     :class="[
       'group transition-all duration-300 floating glass',
       interactive && 'cursor-pointer hover:scale-[1.02] glow-hover',
-      variant === 'gradient-border' && 'relative overflow-hidden gradient-border',
+      variant === 'gradient-border' &&
+        'relative overflow-hidden gradient-border',
       $attrs.class,
     ]"
   >
@@ -14,7 +15,9 @@
         <div
           class="w-16 h-16 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center relative group-hover:scale-110 transition-transform duration-300"
         >
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-full animate-pulse" />
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-full animate-pulse"
+          />
           <UIcon :name="icon" class="w-8 h-8 text-primary relative z-10" />
         </div>
       </div>

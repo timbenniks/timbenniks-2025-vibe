@@ -2,7 +2,9 @@
   <UContainer :size="containerSize" class="text-center py-16 relative">
     <!-- Background glow effect -->
     <div class="absolute inset-0 -z-10">
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-32 bg-gradient-to-r from-primary/10 to-primary/5 blur-3xl rounded-full opacity-60" />
+      <div
+        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-32 bg-gradient-to-r from-primary/10 to-primary/5 blur-3xl rounded-full opacity-60"
+      />
     </div>
 
     <!-- Main heading with enhanced styling -->
@@ -11,7 +13,7 @@
         'font-bold mb-6 relative',
         headingSize === 'xl' ? 'text-5xl md:text-6xl' : 'text-4xl md:text-5xl',
         gradient ? 'text-brand' : 'text-highlighted',
-        'transform transition-all duration-700 hover:scale-105'
+        'transform transition-all duration-700 hover:scale-105',
       ]"
     >
       <slot name="title">
@@ -25,7 +27,7 @@
       :class="[
         'text-muted mb-8 mx-auto leading-relaxed',
         descriptionSize === 'lg' ? 'text-xl max-w-3xl' : 'text-lg max-w-2xl',
-        'transform transition-all duration-500 delay-100'
+        'transform transition-all duration-500 delay-100',
       ]"
     >
       <slot name="description">

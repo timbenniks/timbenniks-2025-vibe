@@ -15,14 +15,18 @@
         <div class="glass floating p-12 rounded-2xl glow">
           <!-- Enhanced icon section -->
           <div class="text-center mb-8">
-            <div class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center relative">
-              <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-full animate-pulse" />
+            <div
+              class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center relative"
+            >
+              <div
+                class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-full animate-pulse"
+              />
               <UIcon
                 name="i-lucide-user"
                 class="w-12 h-12 text-primary relative z-10"
               />
             </div>
-            
+
             <h2 class="text-3xl font-bold text-highlighted mb-4">
               Coming Soon
             </h2>
@@ -36,9 +40,9 @@
             </p>
 
             <p class="text-muted leading-relaxed">
-              You'll learn about his journey from developer to developer advocate,
-              his work with leading companies, and his mission to improve
-              developer experience across the web ecosystem.
+              You'll learn about his journey from developer to developer
+              advocate, his work with leading companies, and his mission to
+              improve developer experience across the web ecosystem.
             </p>
 
             <div class="pt-6">
@@ -69,14 +73,14 @@
         description="Vue.js, Nuxt, React, TypeScript, and cutting-edge web technologies."
         interactive
       />
-      
+
       <FeatureCard
         icon="i-lucide-users"
         title="Developer Relations"
         description="Building communities, creating content, and improving developer experience."
         interactive
       />
-      
+
       <FeatureCard
         icon="i-lucide-layers"
         title="Headless Architecture"

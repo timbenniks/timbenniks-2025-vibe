@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="sticky top-0 z-50 glass border-b border-default/50"
-  >
+  <header class="sticky top-0 z-50 glass border-b border-default/50">
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center py-4">
         <!-- Logo/Brand -->
