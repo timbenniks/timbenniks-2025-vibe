@@ -10,6 +10,16 @@ export default defineNuxtConfig({
     '@nuxt/test-utils'
   ],
 
+  // Import main CSS file
+  css: ['~/assets/css/main.css'],
+
+  // Nuxt UI configuration
+  ui: {
+    theme: {
+      colors: ['primary', 'secondary', 'accent', 'neutral']
+    }
+  },
+
   // Color mode configuration for dark/light theme
   colorMode: {
     preference: 'system'

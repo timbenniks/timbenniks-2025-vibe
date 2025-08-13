@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+
+@theme {
+  /* Tim Benniks Brand Colors */
+  --color-brand-navy-deep: #1b1d39;
+  --color-brand-navy-dark: #0e1029;
+  --color-brand-black: #000000;
+  --color-brand-white: #ffffff;
+
+  /* Accent Colors */
+  --color-accent-blue: #256ad1;
+  --color-accent-pink: #d1258c;
+  --color-accent-pink-soft: #db97bf;
+  --color-accent-pink-bright: #ec4899;
+
+  /* Neutral Colors */
+  --color-neutral-light: #e2e8f0;
+  --color-neutral-medium: #cbd5e1;
+  --color-neutral-dark: #94a3b8;
+
+  /* Typography */
+  --font-sans: "Lato", "Trebuchet MS", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+
+  /* Custom Brand Gradient */
+  --gradient-brand: linear-gradient(89.87deg, var(--color-accent-blue) 7.57%, var(--color-accent-pink) 95.58%);
+}
