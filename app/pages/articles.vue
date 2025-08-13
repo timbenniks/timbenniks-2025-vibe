@@ -5,14 +5,25 @@
       <p class="text-xl text-muted mb-8">
         Insights on web development, JAMstack, and developer experience
       </p>
-      
+
       <div class="bg-elevated border border-default rounded-lg p-8">
-        <UIcon name="i-lucide-book-open" class="w-16 h-16 text-primary mx-auto mb-4" />
-        <h2 class="text-2xl font-semibold text-highlighted mb-4">Coming Soon</h2>
+        <UIcon
+          name="i-lucide-book-open"
+          class="w-16 h-16 text-primary mx-auto mb-4"
+        />
+        <h2 class="text-2xl font-semibold text-highlighted mb-4">
+          Coming Soon
+        </h2>
         <p class="text-muted mb-6">
-          This page will showcase Tim's articles and blog posts about modern web development.
+          This page will showcase Tim's articles and blog posts about modern web
+          development.
         </p>
-        <UButton to="/" color="neutral" variant="outline" icon="i-lucide-arrow-left">
+        <UButton
+          to="/"
+          color="neutral"
+          variant="outline"
+          icon="i-lucide-arrow-left"
+        >
           Back to Home
         </UButton>
       </div>
@@ -22,9 +33,13 @@
 
 <script setup>
 useHead({
-  title: 'Articles - Tim Benniks',
+  title: "Articles - Tim Benniks",
   meta: [
-    { name: 'description', content: 'Articles and blog posts by Tim Benniks on web development and developer experience.' }
-  ]
-})
+    {
+      name: "description",
+      content:
+        "Articles and blog posts by Tim Benniks on web development and developer experience.",
+    },
+  ],
+});
 </script>

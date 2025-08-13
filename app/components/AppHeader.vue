@@ -1,15 +1,22 @@
 <template>
-  <header class="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-default">
+  <header
+    class="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-default"
+  >
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center py-4">
         <!-- Logo/Brand -->
-        <NuxtLink to="/" class="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-          <img 
-            src="/tim.svg" 
-            alt="Tim Benniks Logo" 
-            class="w-8 h-8 sm:w-10 sm:h-10"
+        <NuxtLink
+          to="/"
+          class="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+        >
+          <img
+            src="/tim.svg"
+            alt="Tim Benniks Logo"
+            class="h-8 w-auto sm:h-10"
+          />
+          <span class="text-xl font-bold text-highlighted hidden sm:block"
+            >Tim Benniks</span
           >
-          <span class="text-xl font-bold text-highlighted hidden sm:block">Tim Benniks</span>
         </NuxtLink>
 
         <!-- Desktop Navigation -->
@@ -20,9 +27,9 @@
             :to="item.to"
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors"
             :class="[
-              $route.path === item.to 
-                ? 'bg-primary/10 text-primary' 
-                : 'text-muted hover:text-highlighted hover:bg-elevated'
+              $route.path === item.to
+                ? 'bg-primary/10 text-primary'
+                : 'text-muted hover:text-highlighted hover:bg-elevated',
             ]"
           >
             {{ item.label }}
@@ -32,7 +39,7 @@
         <!-- Actions (Theme toggle + Mobile menu) -->
         <div class="flex items-center space-x-2">
           <ThemeToggle />
-          
+
           <!-- Mobile menu button -->
           <UButton
             icon="i-lucide-menu"
@@ -47,7 +54,7 @@
       </div>
 
       <!-- Mobile Navigation -->
-      <div 
+      <div
         v-if="isMenuOpen"
         class="md:hidden pb-4 border-t border-default mt-4 pt-4"
       >
@@ -58,9 +65,9 @@
             :to="item.to"
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors"
             :class="[
-              $route.path === item.to 
-                ? 'bg-primary/10 text-primary' 
-                : 'text-muted hover:text-highlighted hover:bg-elevated'
+              $route.path === item.to
+                ? 'bg-primary/10 text-primary'
+                : 'text-muted hover:text-highlighted hover:bg-elevated',
             ]"
             @click="isMenuOpen = false"
           >
@@ -73,35 +80,38 @@
 </template>
 
 <script setup>
-const isMenuOpen = ref(false)
+const isMenuOpen = ref(false);
 
 // Close menu when route changes
-const route = useRoute()
-watch(() => route.path, () => {
-  isMenuOpen.value = false
-})
+const route = useRoute();
+watch(
+  () => route.path,
+  () => {
+    isMenuOpen.value = false;
+  }
+);
 
 // Close menu when clicking outside (in a real app, you might want to use a composable for this)
 onMounted(() => {
   const handleClickOutside = (event) => {
-    if (isMenuOpen.value && !event.target.closest('header')) {
-      isMenuOpen.value = false
+    if (isMenuOpen.value && !event.target.closest("header")) {
+      isMenuOpen.value = false;
     }
-  }
-  document.addEventListener('click', handleClickOutside)
+  };
+  document.addEventListener("click", handleClickOutside);
   onUnmounted(() => {
-    document.removeEventListener('click', handleClickOutside)
-  })
-})
+    document.removeEventListener("click", handleClickOutside);
+  });
+});
 
 // Navigation items
 const navigation = [
-  { label: 'Home', to: '/' },
-  { label: 'About', to: '/about' },
-  { label: 'Articles', to: '/articles' },
-  { label: 'Videos', to: '/videos' },
-  { label: 'Talks', to: '/talks' },
-  { label: 'Projects', to: '/projects' },
-  { label: 'Contact', to: '/contact' }
-]
+  { label: "Home", to: "/" },
+  { label: "About", to: "/about" },
+  { label: "Articles", to: "/articles" },
+  { label: "Videos", to: "/videos" },
+  { label: "Talks", to: "/talks" },
+  { label: "Projects", to: "/projects" },
+  { label: "Contact", to: "/contact" },
+];
 </script>
