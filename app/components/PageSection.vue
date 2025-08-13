@@ -4,11 +4,11 @@
       <!-- Section header -->
       <header v-if="title || $slots.header" class="text-center mb-12">
         <slot name="header">
-          <h2 
+          <h2
             :class="[
               'font-bold mb-4',
               titleSize === 'xl' ? 'text-3xl' : 'text-2xl',
-              'text-highlighted'
+              'text-highlighted',
             ]"
           >
             {{ title }}
@@ -36,36 +36,37 @@
 const props = defineProps({
   title: {
     type: String,
-    default: null
+    default: null,
   },
   subtitle: {
     type: String,
-    default: null
+    default: null,
   },
   titleSize: {
     type: String,
-    default: 'xl',
-    validator: (value) => ['lg', 'xl'].includes(value)
+    default: "xl",
+    validator: (value) => ["lg", "xl"].includes(value),
   },
   containerSize: {
     type: String,
-    default: 'default'
+    default: "default",
   },
   layout: {
     type: String,
-    default: 'default',
-    validator: (value) => ['default', 'grid-2', 'grid-3', 'grid-4'].includes(value)
-  }
-})
+    default: "default",
+    validator: (value) =>
+      ["default", "grid-2", "grid-3", "grid-4"].includes(value),
+  },
+});
 
 const contentClasses = computed(() => {
   const layouts = {
-    default: '',
-    'grid-2': 'grid grid-cols-1 md:grid-cols-2 gap-8',
-    'grid-3': 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8',
-    'grid-4': 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'
-  }
-  
-  return layouts[props.layout]
-})
+    default: "",
+    "grid-2": "grid grid-cols-1 md:grid-cols-2 gap-8",
+    "grid-3": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+    "grid-4": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
+  };
+
+  return layouts[props.layout];
+});
 </script>

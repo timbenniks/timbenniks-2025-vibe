@@ -1,6 +1,6 @@
 <template>
   <header
-    class="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-default"
+    class="sticky top-0 z-50 glass border-b border-default/50"
   >
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center py-4">
@@ -13,7 +13,7 @@
             src="/tim.svg"
             alt="Tim Benniks Logo"
             class="h-8 w-auto sm:h-10"
-          >
+          />
           <span class="text-xl font-bold text-highlighted hidden sm:block"
             >Tim Benniks</span
           >
@@ -105,11 +105,10 @@ onMounted(() => {
 });
 
 // Navigation items
-    const navigation = [
-      { name: 'Home', href: '/' },
-      { name: 'About', href: '/about' },
-      { name: 'Articles', href: '/articles' },
-      { name: 'Demo', href: '/demo' },
-      { name: 'Contact', href: '/contact' }
-    ]
+const navigation = [
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Articles", href: "/articles" },
+  { name: "Contact", href: "/contact" },
+];
 </script>

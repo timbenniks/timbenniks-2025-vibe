@@ -1,33 +1,77 @@
 <template>
-  <div class="container mx-auto px-4 py-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-4xl font-bold text-highlighted mb-4">Articles</h1>
-      <p class="text-xl text-muted mb-8">
-        Insights on web development, JAMstack, and developer experience
-      </p>
+  <div>
+    <!-- Hero Section with enhanced PageHeader -->
+    <PageSection>
+      <PageHeader
+        title="Articles"
+        description="Insights on web development, JAMstack, and developer experience"
+        gradient
+      />
+    </PageSection>
 
-      <div class="bg-elevated border border-default rounded-lg p-8">
-        <UIcon
-          name="i-lucide-book-open"
-          class="w-16 h-16 text-primary mx-auto mb-4"
-        />
-        <h2 class="text-2xl font-semibold text-highlighted mb-4">
-          Coming Soon
-        </h2>
-        <p class="text-muted mb-6">
-          This page will showcase Tim's articles and blog posts about modern web
-          development.
-        </p>
-        <UButton
-          to="/"
-          color="neutral"
-          variant="outline"
-          icon="i-lucide-arrow-left"
-        >
-          Back to Home
-        </UButton>
+    <!-- Coming Soon Section with glass effect -->
+    <PageSection>
+      <div class="max-w-2xl mx-auto">
+        <div class="glass floating p-12 rounded-2xl text-center glow">
+          <!-- Icon with gradient background -->
+          <div class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center relative">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-full animate-pulse" />
+            <UIcon
+              name="i-lucide-book-open"
+              class="w-12 h-12 text-primary relative z-10"
+            />
+          </div>
+          
+          <!-- Enhanced typography -->
+          <h2 class="text-3xl font-bold text-highlighted mb-4">
+            Coming Soon
+          </h2>
+          <p class="text-muted mb-8 text-lg leading-relaxed">
+            This page will showcase Tim's articles and blog posts about modern web
+            development, headless CMS, JAMstack architecture, and developer experience insights.
+          </p>
+          
+          <!-- Enhanced button with better styling -->
+          <UButton
+            to="/"
+            variant="gradient-outline"
+            size="lg"
+            icon="i-lucide-arrow-left"
+            class="glow-hover"
+          >
+            Back to Home
+          </UButton>
+        </div>
       </div>
-    </div>
+    </PageSection>
+
+    <!-- Preview section for future content -->
+    <PageSection
+      title="What's Coming"
+      subtitle="A preview of the content categories you'll find here"
+      layout="grid-3"
+    >
+      <FeatureCard
+        icon="i-lucide-layers"
+        title="JAMstack Architecture"
+        description="Deep dives into modern web architecture patterns, static site generation, and serverless deployment strategies."
+        interactive
+      />
+      
+      <FeatureCard
+        icon="i-lucide-zap"
+        title="Developer Experience"
+        description="Best practices for improving developer workflows, tooling, and creating better development environments."
+        interactive
+      />
+      
+      <FeatureCard
+        icon="i-lucide-rocket"
+        title="Performance & Optimization"
+        description="Techniques for building fast, efficient web applications with optimal user experience and Core Web Vitals."
+        interactive
+      />
+    </PageSection>
   </div>
 </template>
 

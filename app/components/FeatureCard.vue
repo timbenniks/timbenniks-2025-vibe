@@ -1,30 +1,30 @@
 <template>
   <UCard
-    :variant="variant" 
+    :variant="variant"
     :class="[
-      'group transition-all duration-300',
-      interactive && 'cursor-pointer hover:scale-[1.02]',
-      variant === 'gradient-border' && 'relative overflow-hidden',
-      $attrs.class
+      'group transition-all duration-300 floating glass',
+      interactive && 'cursor-pointer hover:scale-[1.02] glow-hover',
+      variant === 'gradient-border' && 'relative overflow-hidden gradient-border',
+      $attrs.class,
     ]"
   >
-    <!-- Gradient border effect for special variant -->
-    <div
-      v-if="variant === 'gradient-border'"
-      class="absolute inset-0 brand-gradient rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-    />
-    
-    <!-- Icon header -->
+    <!-- Icon header with enhanced styling -->
     <template v-if="icon" #header>
       <div class="flex justify-center mb-4">
-        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-          <UIcon :name="icon" class="w-8 h-8 text-primary" />
+        <div
+          class="w-16 h-16 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center relative group-hover:scale-110 transition-transform duration-300"
+        >
+          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-full animate-pulse" />
+          <UIcon :name="icon" class="w-8 h-8 text-primary relative z-10" />
         </div>
       </div>
     </template>
 
     <!-- Title -->
-    <h3 v-if="title" class="text-lg font-semibold text-highlighted mb-2 text-center">
+    <h3
+      v-if="title"
+      class="text-lg font-semibold text-highlighted mb-2 text-center"
+    >
       {{ title }}
     </h3>
 
@@ -60,49 +60,50 @@
 defineProps({
   title: {
     type: String,
-    default: null
+    default: null,
   },
   description: {
     type: String,
-    default: null
+    default: null,
   },
   icon: {
     type: String,
-    default: null
+    default: null,
   },
   variant: {
     type: String,
-    default: 'default',
-    validator: (value) => ['default', 'elevated', 'gradient-border'].includes(value)
+    default: "default",
+    validator: (value) =>
+      ["default", "elevated", "gradient-border"].includes(value),
   },
   interactive: {
     type: Boolean,
-    default: false
+    default: false,
   },
   // Button props
   buttonText: {
     type: String,
-    default: null
+    default: null,
   },
   buttonTo: {
     type: String,
-    default: null
+    default: null,
   },
   buttonVariant: {
     type: String,
-    default: 'outline'
+    default: "outline",
   },
   buttonColor: {
     type: String,
-    default: 'primary'
+    default: "primary",
   },
   buttonSize: {
     type: String,
-    default: 'sm'
+    default: "sm",
   },
   buttonIcon: {
     type: String,
-    default: null
-  }
-})
+    default: null,
+  },
+});
 </script>

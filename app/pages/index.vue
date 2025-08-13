@@ -10,14 +10,14 @@
             label: 'Learn About Me',
             variant: 'gradient',
             to: '/about',
-            icon: 'i-lucide-user'
+            icon: 'i-lucide-user',
           },
           {
             label: 'Read My Articles',
             variant: 'outline',
             to: '/articles',
-            icon: 'i-lucide-book-open'
-          }
+            icon: 'i-lucide-book-open',
+          },
         ]"
       />
     </PageSection>
@@ -33,25 +33,23 @@
         title="Content Creation"
         description="Creating educational content about web development, JAMstack, and developer tools."
         :actions="[
-          { label: 'View Content', variant: 'gradient', to: '/articles' }
+          { label: 'View Content', variant: 'gradient', to: '/articles' },
         ]"
       />
-      
+
       <FeatureCard
         icon="i-lucide-mic"
         title="Speaking"
         description="Speaking at conferences and events about modern web development and developer experience."
-        :actions="[
-          { label: 'View Talks', variant: 'gradient', to: '/talks' }
-        ]"
+        :actions="[{ label: 'View Talks', variant: 'gradient', to: '/talks' }]"
       />
-      
+
       <FeatureCard
         icon="i-lucide-code"
         title="Development"
         description="Building modern web applications with focus on performance and developer experience."
         :actions="[
-          { label: 'See Projects', variant: 'gradient', to: '/projects' }
+          { label: 'See Projects', variant: 'gradient', to: '/projects' },
         ]"
       />
     </PageSection>
@@ -61,7 +59,8 @@
       <div class="brand-gradient rounded-2xl p-12 text-center text-white">
         <h2 class="text-4xl font-bold mb-4">Ready to Connect?</h2>
         <p class="text-xl mb-8 opacity-90">
-          Let's discuss modern web development, headless CMS, or developer relations.
+          Let's discuss modern web development, headless CMS, or developer
+          relations.
         </p>
         <UButton
           to="/contact"
