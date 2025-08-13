@@ -24,5 +24,68 @@
   --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
 
   /* Custom Brand Gradient */
-  --gradient-brand: linear-gradient(89.87deg, var(--color-accent-blue) 7.57%, var(--color-accent-pink) 95.58%);
+  --gradient-brand: linear-gradient(
+    89.87deg,
+    var(--color-accent-blue) 7.57%,
+    var(--color-accent-pink) 95.58%
+  );
+}
+
+/* Light mode theme customization */
+:root {
+  --ui-bg: var(--ui-color-neutral-50);
+  --ui-text: var(--ui-color-neutral-900);
+  --ui-border: var(--ui-color-neutral-200);
+  --ui-primary: var(--color-accent-blue);
+}
+
+/* Dark mode theme customization */
+.dark {
+  --ui-bg: var(--ui-color-neutral-950);
+  --ui-text: var(--ui-color-neutral-50);
+  --ui-border: var(--ui-color-neutral-800);
+  --ui-primary: var(--color-accent-pink);
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: 
+    background-color 300ms ease,
+    border-color 300ms ease,
+    color 300ms ease;
+}
+
+/* Custom styles for brand identity */
+.brand-gradient {
+  background: var(--gradient-brand);
+}
+
+.text-brand {
+  background: var(--gradient-brand);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Custom background classes that work with theme */
+.bg-background {
+  background-color: var(--ui-bg);
+}
+
+.bg-elevated {
+  background-color: var(--ui-bg-elevated);
+}
+
+/* Custom text classes that work with theme */
+.text-highlighted {
+  color: var(--ui-text-highlighted);
+}
+
+.text-muted {
+  color: var(--ui-text-muted);
+}
+
+/* Custom border classes that work with theme */
+.border-default {
+  border-color: var(--ui-border);
 }
