@@ -13,7 +13,7 @@
             src="/tim.svg"
             alt="Tim Benniks Logo"
             class="h-8 w-auto sm:h-10"
-          />
+          >
           <span class="text-xl font-bold text-highlighted hidden sm:block"
             >Tim Benniks</span
           >
@@ -105,13 +105,11 @@ onMounted(() => {
 });
 
 // Navigation items
-const navigation = [
-  { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Articles", to: "/articles" },
-  { label: "Videos", to: "/videos" },
-  { label: "Talks", to: "/talks" },
-  { label: "Projects", to: "/projects" },
-  { label: "Contact", to: "/contact" },
-];
+    const navigation = [
+      { name: 'Home', href: '/' },
+      { name: 'About', href: '/about' },
+      { name: 'Articles', href: '/articles' },
+      { name: 'Demo', href: '/demo' },
+      { name: 'Contact', href: '/contact' }
+    ]
 </script>
