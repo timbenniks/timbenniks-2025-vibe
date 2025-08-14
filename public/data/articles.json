@@ -1,0 +1,127 @@
+[
+  {
+    "title": "The Impact of AI on Modern Web Development: A Developer's Perspective",
+    "slug": "ai-impact-modern-web-development-developer-perspective",
+    "description": "Exploring how artificial intelligence is reshaping the way we build websites and applications, from code generation to content optimization and beyond.",
+    "date": "2024-10-15",
+    "readingTime": "8 min read",
+    "featured": true,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1728988800/articles/ai-web-development.jpg",
+    "tags": [
+      "AI",
+      "Web Development",
+      "Developer Experience",
+      "Machine Learning"
+    ],
+    "excerpt": "Artificial intelligence is fundamentally changing how we approach web development. From automated code reviews to intelligent content generation, AI tools are becoming essential parts of the modern developer's toolkit."
+  },
+  {
+    "title": "Building Scalable Headless Architectures: Lessons from the Field",
+    "slug": "building-scalable-headless-architectures-lessons-field",
+    "description": "A comprehensive guide to designing and implementing headless CMS architectures that scale with your business needs and developer workflows.",
+    "date": "2024-09-22",
+    "readingTime": "12 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1727020800/articles/headless-architecture.jpg",
+    "tags": ["Headless CMS", "Architecture", "Scalability", "API Design"],
+    "excerpt": "Learn how to design headless architectures that can handle enterprise-scale content delivery while maintaining developer productivity and content editor experience."
+  },
+  {
+    "title": "Visual Editing in Headless CMS: The Future of Content Creation",
+    "slug": "visual-editing-headless-cms-future-content-creation",
+    "description": "Exploring the evolution of content editing experiences in headless CMS platforms and how visual builders are bridging the gap between developers and content creators.",
+    "date": "2024-08-30",
+    "readingTime": "7 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1725033600/articles/visual-editing.jpg",
+    "tags": ["Visual Editing", "Content Management", "User Experience", "CMS"],
+    "excerpt": "Visual editing capabilities are transforming how content teams work with headless CMS platforms, offering the best of both worlds: developer flexibility and editor-friendly interfaces."
+  },
+  {
+    "title": "Optimizing Core Web Vitals for Modern JavaScript Frameworks",
+    "slug": "optimizing-core-web-vitals-modern-javascript-frameworks",
+    "description": "Practical strategies for improving Core Web Vitals in React, Vue, and other modern JavaScript frameworks to enhance user experience and SEO performance.",
+    "date": "2024-07-18",
+    "readingTime": "10 min read",
+    "featured": true,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1721336400/articles/core-web-vitals.jpg",
+    "tags": ["Performance", "Core Web Vitals", "JavaScript", "SEO"],
+    "excerpt": "Core Web Vitals are crucial for user experience and search rankings. Learn how to optimize your JavaScript applications for better performance metrics."
+  },
+  {
+    "title": "The Developer's Guide to Content-Driven Personalization",
+    "slug": "developers-guide-content-driven-personalization",
+    "description": "Understanding how to implement personalization strategies that leverage content management systems and user data to create tailored digital experiences.",
+    "date": "2024-06-25",
+    "readingTime": "9 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1719360000/articles/personalization.jpg",
+    "tags": ["Personalization", "Content Strategy", "User Experience", "Data"],
+    "excerpt": "Personalization isn't just about showing different content to different users—it's about creating meaningful, contextual experiences that drive engagement and conversion."
+  },
+  {
+    "title": "Implementing GraphQL Federation in Multi-Team Environments",
+    "slug": "implementing-graphql-federation-multi-team-environments",
+    "description": "A practical approach to GraphQL federation that enables multiple teams to work independently while maintaining a unified API experience.",
+    "date": "2024-05-14",
+    "readingTime": "11 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1715731200/articles/graphql-federation.jpg",
+    "tags": ["GraphQL", "Federation", "API Design", "Team Collaboration"],
+    "excerpt": "GraphQL federation allows teams to build and deploy their schemas independently while providing consumers with a single, unified API endpoint."
+  },
+  {
+    "title": "Micro-Frontend Architecture: When and How to Implement",
+    "slug": "micro-frontend-architecture-when-how-implement",
+    "description": "Exploring the benefits, challenges, and implementation strategies of micro-frontend architectures for large-scale web applications.",
+    "date": "2024-04-08",
+    "readingTime": "13 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1712620800/articles/micro-frontends.jpg",
+    "tags": [
+      "Micro-Frontends",
+      "Architecture",
+      "Scalability",
+      "Team Structure"
+    ],
+    "excerpt": "Micro-frontends can solve organizational and technical challenges in large applications, but they're not a silver bullet. Learn when and how to implement them effectively."
+  },
+  {
+    "title": "Server-Side Rendering vs. Static Generation: Making the Right Choice",
+    "slug": "ssr-vs-static-generation-making-right-choice",
+    "description": "Comparing server-side rendering and static site generation approaches to help developers choose the best strategy for their specific use cases.",
+    "date": "2024-03-20",
+    "readingTime": "8 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1710979200/articles/ssr-vs-ssg.jpg",
+    "tags": ["SSR", "SSG", "Performance", "Architecture"],
+    "excerpt": "The choice between SSR and SSG isn't always clear-cut. Understanding the trade-offs and use cases for each approach will help you make informed decisions."
+  },
+  {
+    "title": "Building Accessible Component Libraries with Vue 3",
+    "slug": "building-accessible-component-libraries-vue-3",
+    "description": "A comprehensive guide to creating accessible, reusable component libraries using Vue 3, focusing on ARIA standards and inclusive design principles.",
+    "date": "2024-02-12",
+    "readingTime": "14 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1707782400/articles/accessible-components.jpg",
+    "tags": [
+      "Accessibility",
+      "Vue.js",
+      "Component Library",
+      "Inclusive Design"
+    ],
+    "excerpt": "Building accessible components from the ground up ensures that your applications work for everyone. Learn how to create inclusive Vue 3 components with proper ARIA support."
+  },
+  {
+    "title": "The Evolution of JAMstack: Where We Are and Where We're Going",
+    "slug": "evolution-jamstack-where-we-are-going",
+    "description": "Reflecting on the JAMstack movement's impact on web development and exploring emerging patterns in modern web architecture.",
+    "date": "2024-01-25",
+    "readingTime": "6 min read",
+    "featured": false,
+    "thumbnail": "https://res.cloudinary.com/timbenniks/image/upload/c_fill,f_auto,q_auto,w_800,h_400/v1706227200/articles/jamstack-evolution.jpg",
+    "tags": ["JAMstack", "Web Architecture", "Industry Trends", "Static Sites"],
+    "excerpt": "JAMstack has fundamentally changed how we think about web architecture. As the ecosystem matures, new patterns and practices are emerging that push the boundaries even further."
+  }
+]

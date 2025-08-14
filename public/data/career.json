@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Developer Experience Lead",
+    "company": "Contentstack",
+    "location": "Remote, France",
+    "period": "2023 - Present",
+    "type": "Full-time",
+    "description": "Leading developer experience initiatives, creating educational content, and helping developers build better digital experiences with headless CMS solutions."
+  },
+  {
+    "title": "Senior Developer Relations Engineer",
+    "company": "Hygraph",
+    "location": "Remote, Germany",
+    "period": "2022 - 2023",
+    "type": "Full-time",
+    "description": "Focused on developer community growth, technical content creation, and supporting developers in their journey with GraphQL and headless CMS technologies."
+  },
+  {
+    "title": "Developer Relations Lead",
+    "company": "Uniform",
+    "location": "Remote, United States",
+    "period": "2021 - 2022",
+    "type": "Full-time",
+    "description": "Built developer relations programs, created technical documentation, and evangelized composable architecture solutions to the developer community."
+  },
+  {
+    "title": "Senior Frontend Developer",
+    "company": "Valtech",
+    "location": "Paris, France",
+    "period": "2019 - 2021",
+    "type": "Full-time",
+    "description": "Developed high-performance web applications for enterprise clients, specializing in Vue.js, Nuxt.js, and modern frontend architectures."
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "AKQA",
+    "location": "Amsterdam, Netherlands",
+    "period": "2016 - 2019",
+    "type": "Full-time",
+    "description": "Created award-winning digital experiences for global brands including Nike, Volvo, and Philips, focusing on performance and user experience."
+  },
+  {
+    "title": "Web Developer",
+    "company": "Various Agencies",
+    "location": "Netherlands",
+    "period": "2008 - 2016",
+    "type": "Full-time",
+    "description": "Worked across multiple digital agencies building websites and applications for diverse clients, developing expertise in frontend technologies and digital marketing."
+  }
+]

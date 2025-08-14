@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Contentstack Live Preview with your own middleware",
+    "description": "Learn how to use the Contentstack Live preview when you have created your own middleware.",
+    "videoId": "Fuy908j4CSE",
+    "date": "2025-04-02",
+    "duration": "10:15",
+    "category": "Contentstack",
+    "tags": ["CMS", "Headless", "API", "Middleware"],
+    "thumbnail": "https://i.ytimg.com/vi/Fuy908j4CSE/maxresdefault.jpg"
+  },
+  {
+    "title": "Live stream Just Automate It!",
+    "description": "Join us for a hands-on demonstration of Contentstack's Automate and how to configure it to set content teams up for success.",
+    "videoId": "KhEV1dHs-aY",
+    "date": "2025-04-01",
+    "duration": "1:23:45",
+    "category": "Contentstack Live",
+    "tags": ["AI", "DXP", "Composable", "Automation"],
+    "thumbnail": "https://i.ytimg.com/vi/KhEV1dHs-aY/maxresdefault.jpg"
+  },
+  {
+    "title": "Live stream A journey into the rich text editor w/ Lo & Tim",
+    "description": "Live stream A journey into the rich text editor and advanced configuration w/ Lo & Tim",
+    "videoId": "SiWF0naYbSk",
+    "date": "2025-04-01",
+    "duration": "58:30",
+    "category": "Contentstack Live",
+    "tags": ["Cloudinary", "CMS", "Collaboration", "Rich Text"],
+    "thumbnail": "https://i.ytimg.com/vi/SiWF0naYbSk/maxresdefault.jpg"
+  },
+  {
+    "title": "Live stream Tour de Live Preview",
+    "description": "We go over every possible Live Preview configuration from SSG to SSR, and from CSR to GraphQL. This is the final guide on setting up Contentstack Live Preview you'll ever need.",
+    "videoId": "9vYYsyv67QE",
+    "date": "2025-04-01",
+    "duration": "1:15:20",
+    "category": "Contentstack Live",
+    "tags": ["GraphQL", "Headless", "JavaScript", "Live Preview"],
+    "thumbnail": "https://i.ytimg.com/vi/9vYYsyv67QE/maxresdefault.jpg"
+  },
+  {
+    "title": "Transforming DevRel with AI: Doorbell DevRel Explained",
+    "description": "The Doorbell #devrel is an AI-driven content creation project that generates lifelike, unscripted developer marketing videos using minimal code and cutting-edge tools.",
+    "videoId": "svuvHP4t0xQ",
+    "date": "2025-03-13",
+    "duration": "3:45",
+    "category": "Tim",
+    "tags": ["DevRel", "Cloudinary", "CMS", "AI"],
+    "thumbnail": "https://i.ytimg.com/vi/svuvHP4t0xQ/maxresdefault.jpg"
+  },
+  {
+    "title": "Contentstack Implementation guide: Next 15",
+    "description": "This is the simplest way to connect your Next 15 front-end to Contentstack. You get Live preview and visual building as well!",
+    "videoId": "Px0b811Rz3Q",
+    "date": "2025-02-18",
+    "duration": "12:30",
+    "category": "Contentstack",
+    "tags": ["CMS", "Headless", "JavaScript", "Next.js"],
+    "thumbnail": "https://i.ytimg.com/vi/Px0b811Rz3Q/maxresdefault.jpg"
+  },
+  {
+    "title": "Contentstack Live Preview under the hood",
+    "description": "In this video @timbenniks shows how Live Preview works under the hood.",
+    "videoId": "_Xeu7q_OP9A",
+    "date": "2025-02-07",
+    "duration": "5:45",
+    "category": "Contentstack",
+    "tags": ["API", "CMS", "Headless", "Live Preview"],
+    "thumbnail": "https://i.ytimg.com/vi/_Xeu7q_OP9A/maxresdefault.jpg"
+  },
+  {
+    "title": "Create a new stack and fill it with content via the CLI",
+    "description": "In this video we're going to create a new stack and Seed it with content from a repository on GitHub all with the content stack CLI",
+    "videoId": "2dQheUo7uH4",
+    "date": "2025-02-03",
+    "duration": "4:20",
+    "category": "Contentstack",
+    "tags": ["CLI", "CMS", "DevOps", "Tooling"],
+    "thumbnail": "https://i.ytimg.com/vi/2dQheUo7uH4/maxresdefault.jpg"
+  },
+  {
+    "title": "Contentstack Visual Builder for developers",
+    "description": "Learn how to implement Contentstack Visual Builder in the most minimal way possible. This video dives into the creating the code that makes it all work in Next.js.",
+    "videoId": "ni3mMmbFSfM",
+    "date": "2024-12-13",
+    "duration": "18:45",
+    "category": "Contentstack",
+    "tags": ["CMS", "Headless", "Composable", "Visual Builder"],
+    "thumbnail": "https://i.ytimg.com/vi/ni3mMmbFSfM/maxresdefault.jpg"
+  },
+  {
+    "title": "Data modelling best practises for visual builders",
+    "description": "In this video, @timbenniks shows how to data model for visual experiences in Contentstack. Design data and domain data are meant to be used in a different way.",
+    "videoId": "-QDD9UWWJNA",
+    "date": "2024-12-13",
+    "duration": "8:15",
+    "category": "Contentstack",
+    "tags": ["CMS", "Headless", "Composable", "Data Modeling"],
+    "thumbnail": "https://i.ytimg.com/vi/-QDD9UWWJNA/maxresdefault.jpg"
+  }
+]

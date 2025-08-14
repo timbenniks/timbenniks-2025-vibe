@@ -1,0 +1,25 @@
+{
+  "bio": "Tim is a Developer Experience Lead at Contentstack with 15+ years of experience building websites for global brands. He's passionate about developer communities, performance optimization, and the intersection of content and technology.",
+  "currentRole": "Developer Experience Lead",
+  "company": "Contentstack",
+  "experience": "15+ years",
+  "location": "France",
+  "faq": [
+    {
+      "question": "What is your background?",
+      "answer": "I have been building websites for 15+ years. I worked at digital agencies for the first 10 years of my career, working with brands like KLM, Heineken, and Philips. For the last 5 years, I have been working in the developer relations and developer experience space, helping developers create great digital experiences."
+    },
+    {
+      "question": "What do you do now?",
+      "answer": "I am the Developer Experience Lead at Contentstack, where I help developers understand how to build modern, headless websites and applications. I create content, speak at conferences, and work with our community to ensure they have the best possible experience with our platform."
+    },
+    {
+      "question": "What are you passionate about?",
+      "answer": "I'm passionate about developer communities, performance optimization, and helping developers create amazing digital experiences. I believe in the power of headless architecture and composable systems to enable better, faster, and more maintainable websites."
+    },
+    {
+      "question": "How can I connect with you?",
+      "answer": "You can find me on Twitter @timbenniks, check out my work on GitHub, or connect with me on LinkedIn. I'm always happy to chat about web development, headless CMSs, and developer experience!"
+    }
+  ]
+}

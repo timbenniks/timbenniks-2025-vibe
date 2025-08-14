@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Building the Future of Developer Experience",
+    "event": "Vue.js Amsterdam",
+    "location": "Amsterdam, Netherlands",
+    "date": "2024-02-28",
+    "type": "Conference",
+    "description": "Exploring how developer experience shapes the tools and platforms we use, and how we can build better experiences for developers in the headless ecosystem.",
+    "topics": ["Developer Experience", "Tooling", "Community"],
+    "slides": "https://slides.com/timbenniks/vue-amsterdam-2024",
+    "video": "https://www.youtube.com/watch?v=example1"
+  },
+  {
+    "title": "Headless Architecture Patterns for Scale",
+    "event": "DevWorld Conference",
+    "location": "Online",
+    "date": "2024-01-15",
+    "type": "Webinar",
+    "description": "Deep dive into architectural patterns that enable headless systems to scale effectively while maintaining performance and developer productivity.",
+    "topics": ["Architecture", "Scalability", "Performance"],
+    "slides": "https://slides.com/timbenniks/devworld-2024",
+    "video": "https://www.youtube.com/watch?v=example2"
+  },
+  {
+    "title": "The Visual Revolution in Headless CMS",
+    "event": "ContentCon",
+    "location": "San Francisco, CA",
+    "date": "2023-11-20",
+    "type": "Keynote",
+    "description": "How visual editing capabilities are transforming the headless CMS landscape and enabling new workflows for content teams and developers.",
+    "topics": ["Visual Editing", "Content Management", "Workflows"],
+    "slides": "https://slides.com/timbenniks/contentcon-2023",
+    "video": "https://www.youtube.com/watch?v=example3"
+  },
+  {
+    "title": "Performance Optimization in Modern Web Apps",
+    "event": "Frontend Nation",
+    "location": "Online",
+    "date": "2023-10-05",
+    "type": "Workshop",
+    "description": "Hands-on workshop covering practical techniques for optimizing Core Web Vitals and overall performance in modern JavaScript applications.",
+    "topics": ["Performance", "Core Web Vitals", "JavaScript"],
+    "slides": "https://slides.com/timbenniks/frontend-nation-2023",
+    "video": "https://www.youtube.com/watch?v=example4"
+  },
+  {
+    "title": "From Monolith to Composable: A Migration Journey",
+    "event": "JAMstack Conf",
+    "location": "London, UK",
+    "date": "2023-09-12",
+    "type": "Conference",
+    "description": "Real-world case study of migrating from monolithic architecture to a composable, headless approach, including challenges and lessons learned.",
+    "topics": ["Migration", "Composable Architecture", "Case Study"],
+    "slides": "https://slides.com/timbenniks/jamstack-conf-2023",
+    "video": "https://www.youtube.com/watch?v=example5"
+  },
+  {
+    "title": "Building Developer Communities in the Headless Era",
+    "event": "DevRel Summit",
+    "location": "Berlin, Germany",
+    "date": "2023-07-28",
+    "type": "Conference",
+    "description": "Strategies for building and nurturing developer communities around headless technologies, with practical examples from the field.",
+    "topics": ["Developer Relations", "Community", "Strategy"],
+    "slides": "https://slides.com/timbenniks/devrel-summit-2023",
+    "video": "https://www.youtube.com/watch?v=example6"
+  },
+  {
+    "title": "GraphQL Federation in Production",
+    "event": "GraphQL World",
+    "location": "Online",
+    "date": "2023-06-14",
+    "type": "Conference",
+    "description": "Practical insights into implementing GraphQL federation in production environments, including monitoring, debugging, and team coordination.",
+    "topics": ["GraphQL", "Federation", "Production"],
+    "slides": "https://slides.com/timbenniks/graphql-world-2023",
+    "video": "https://www.youtube.com/watch?v=example7"
+  },
+  {
+    "title": "The Future of Web Development: Trends and Predictions",
+    "event": "WebSummit",
+    "location": "Lisbon, Portugal",
+    "date": "2023-05-03",
+    "type": "Panel",
+    "description": "Panel discussion exploring emerging trends in web development, from AI integration to new deployment models and developer tooling.",
+    "topics": ["Industry Trends", "Future Tech", "AI"],
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=example8"
+  },
+  {
+    "title": "Micro-Frontends: Patterns and Anti-Patterns",
+    "event": "React Advanced",
+    "location": "Amsterdam, Netherlands",
+    "date": "2023-03-22",
+    "type": "Conference",
+    "description": "Exploring successful patterns and common pitfalls in micro-frontend implementations, with practical examples and architectural guidance.",
+    "topics": ["Micro-Frontends", "Architecture", "React"],
+    "slides": "https://slides.com/timbenniks/react-advanced-2023",
+    "video": "https://www.youtube.com/watch?v=example9"
+  },
+  {
+    "title": "Accessibility in Modern JavaScript Frameworks",
+    "event": "A11y Conference",
+    "location": "Online",
+    "date": "2023-02-08",
+    "type": "Workshop",
+    "description": "Comprehensive workshop on building accessible applications with modern JavaScript frameworks, covering ARIA, testing, and inclusive design principles.",
+    "topics": ["Accessibility", "JavaScript", "Inclusive Design"],
+    "slides": "https://slides.com/timbenniks/a11y-conf-2023",
+    "video": "https://www.youtube.com/watch?v=example10"
+  }
+]
